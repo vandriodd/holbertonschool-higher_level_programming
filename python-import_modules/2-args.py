@@ -9,4 +9,4 @@ if __name__ == "__main__":
         print("{} {}{}".format(num_elements, msg,
               "." if num_elements == 0 else ":"))
     for ac, name in enumerate(sys.argv[1:], start=1):
-        print(f"{ac}: {name}")
+        print("{}: {}".format(ac, name))
