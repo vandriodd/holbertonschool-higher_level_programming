@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import hidden_4
-    for directory in dir(hidden_4):
-        if directory[0] != "__":
-            print(directory)
+    for name in dir(hidden_4):
+        if "_" not in name:
+            print(name)
