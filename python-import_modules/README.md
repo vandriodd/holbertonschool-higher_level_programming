@@ -24,7 +24,9 @@ The learning objectives of this project involve an understanding of:
 * How to use command line arguments with your Python programs
 
 ## Resources
-Placeholder
+* [Modules](https://docs.python.org/3/tutorial/modules.html)
+* [Command line arguments](https://docs.python.org/3/tutorial/stdlib.html#command-line-arguments)
+* [Pycodestyle – Style Guide for Python Code](https://pypi.org/project/pycodestyle/)
 
 ## Requirements
 * Ubuntu 20.04 LTS
