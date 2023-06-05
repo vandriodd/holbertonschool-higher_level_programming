@@ -15,7 +15,18 @@
 * [Credits](#credits)
 
 ## About
-Placeholder
+The learning objectives of this project involve an understanding of:
+* How to use the if, if ... else statements
+* How to affect values to variables
+* How to use the while and for loops
+* How to use the break and continues statements
+* How to use else clauses on loops
+* What does the pass statement do, and when to use it
+* How to use range
+* What does return a function that does not use any return statement
+* Scope of variables
+* What’s a traceback
+* What are the arithmetic operators and how to use them
 
 ## Resources
 Placeholder
