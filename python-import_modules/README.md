@@ -15,7 +15,7 @@
 * [Credits](#credits)
 
 ## About
-Placeholderimport & modules
+Placeholder
 
 ## Resources
 Placeholder
