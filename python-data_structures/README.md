@@ -21,7 +21,10 @@ Placeholder
 Placeholder
 
 ## Requirements
-Placeholder
+* Ubuntu 20.04 LTS
+* Python3 version 3.8
+* Pycodestyle (PEP8) version 2.7
+* The first line of all scripts should be #!/usr/bin/python3
 
 ## Tasks
 Placeholder
