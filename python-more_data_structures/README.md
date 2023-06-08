@@ -28,7 +28,9 @@ The learning objectives of this project involve an understanding of:
 * What are the map, reduce and filter functions
 
 ## Resources
-Placeholder
+* [Data structures](https://docs.python.org/3/tutorial/datastructures.html)
+* [Lambda, filter, reduce and map](https://python-course.eu/advanced-python/lambda-filter-reduce-map.php)
+* [Learn to Program 12 Lambda Map Filter Reduce](https://youtu.be/1GAC6KQUPeg)
 
 ## Requirements
 * Ubuntu 20.04 LTS
