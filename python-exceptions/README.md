@@ -25,7 +25,8 @@ The learning objectives of this project involve an understanding of:
 * When do we need to implement a clean-up action after an exception
 
 ## Resources
-Placeholder
+* [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
+* [Learn to Program 11 Static & Exception Handling](https://youtu.be/7vbgD-3s-w4)
 
 ## Requirements
 * Ubuntu 20.04 LTS
