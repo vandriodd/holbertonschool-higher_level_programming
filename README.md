@@ -16,6 +16,7 @@
 This repository contains different projects carried out in the margins of the Holberton School course. These projects consist of exercises aimed at acquiring and reinforcing knowledge in:
 * Test Driven Development
 * Objects
+* Handling errors and exceptions
 
 ## Resources
 They are specified in each project.
@@ -29,6 +30,9 @@ They are specified in each project.
 1. [python-hello_world](./python-hello_world)
 2. [python-if_else_loops_functions](./python-if_else_loops_functions)
 3. [python-import_modules](./python-import_modules)
+4. [python-data_structures](./python-data_structures)
+5. [python-more_data_structures](./python-more_data_structures)
+6. [python-exceptions](./python-exceptions)
 
 ## Credits
 Collaborators are acknowledged within each project.
