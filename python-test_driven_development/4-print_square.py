@@ -11,4 +11,4 @@ def print_square(size):
     elif size < 0:
         raise ValueError("size must be >= 0")
 
-    print("{}".format(('#' * size + chr(10)) * size), end="")
+    print(f"{('#' * size + chr(10)) * size}", end="")
