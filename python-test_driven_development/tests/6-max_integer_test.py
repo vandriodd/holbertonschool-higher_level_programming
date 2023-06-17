@@ -35,6 +35,18 @@ class TestMaxInteger(unittest.TestCase):
         """ Tests the function on a list with a single value """
         self.assertEqual(max_integer([51]), 51)
 
+    def test_ordered_list(self):
+        """ Tests the function on a ordered list """
+        self.assertEqual(max_integer([1, 2, 3, 5]), 5)
+
+    def test_reversed_list(self):
+        """ Tests the function on a reversed ordered list """
+        self.assertEqual(max_integer([5, 4, 3, 2, 1]), 5)
+
+    def test_positives_and_negatives(self):
+        """ Test the function on a list with positive and negative values """
+        self.assertEqual(max_integer([-3, 2, 5, -99]), 5)
+
 
 if __name__ == "__main__":
     unittest.main()
