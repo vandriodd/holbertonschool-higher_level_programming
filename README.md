@@ -33,6 +33,9 @@ They are specified in each project.
 4. [python-data_structures](./python-data_structures)
 5. [python-more_data_structures](./python-more_data_structures)
 6. [python-exceptions](./python-exceptions)
+7. [python-classes](./python-classes)
+8. [python-test_driven_development](./python-test_driven_development)
+9. [python-more_classes](./python-more_classes)
 
 ## Credits
 Collaborators are acknowledged within each project.
