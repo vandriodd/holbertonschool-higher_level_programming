@@ -57,20 +57,24 @@ class Rectangle:
 
     def area(self):
         """ Returns the area of the new rectangle """
-        return self.height * self.width
+        return self.__height * self.__width
 
     def perimeter(self):
         """ Returns the perimeter of the new rectangle """
-        if self.height == 0 or self.width == 0:
+        if self.__height == 0 or self.__width == 0:
             return 0
-        return (self.height + self.width) * 2
+        return (self.__height + self.__width) * 2
 
     def __str__(self):
         """ Prints the new rectangle """
-        if self.height == 0 or self.width == 0:
+        if self.__width == 0 or self.__height == 0:
             return ""
-        return ((str(self.print_symbol) * self.width + "\n")
-                * self.height).strip("\n")
+        output = (
+            f"""{f"{str(self.print_symbol) * self.width}"
+                      + chr(10)}"""
+            * self.height
+        )
+        return output[:-1]
 
     def __repr__(self):
         """ Returns the representation of the new rectangle """
