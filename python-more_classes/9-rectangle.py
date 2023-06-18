@@ -15,16 +15,16 @@ class Rectangle:
             width (int): width of new rectangle
             height (int): height of new rectangle
         """
-        if not isinstance(height, int):
-            raise TypeError("height must be an integer")
-        if height < 0:
-            raise ValueError("height must be >= 0")
-        self.__height = height
         if not isinstance(width, int):
             raise TypeError("width must be an integer")
         if width < 0:
             raise ValueError("width must be >= 0")
         self.__width = width
+        if not isinstance(height, int):
+            raise TypeError("height must be an integer")
+        if height < 0:
+            raise ValueError("height must be >= 0")
+        self.__height = height
         Rectangle.number_of_instances += 1
 
     @property
@@ -67,14 +67,10 @@ class Rectangle:
 
     def __str__(self):
         """ Prints the new rectangle """
-        if self.__width == 0 or self.__height == 0:
+        if self.__height == 0 or self.__width == 0:
             return ""
-        output = (
-            f"""{f"{str(self.print_symbol) * self.width}"
-                      + chr(10)}"""
-            * self.height
-        )
-        return output[:-1]
+        return ((str(self.print_symbol) * self.__width + "\n")
+                * self.__height).strip("\n")
 
     def __repr__(self):
         """ Returns the representation of the new rectangle """
