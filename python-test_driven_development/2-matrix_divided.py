@@ -9,8 +9,13 @@ def handle_errors(matrix, div):
 
     if len(set(map(len, matrix))) != 1:
         raise TypeError("Each row of the matrix must have the same size")
-    if not (isinstance(number, (int, float)) for row in matrix
-            for number in row) or not isinstance(matrix, list):
+    for row in matrix:
+        for number in row:
+            if not isinstance(number, (int, float)):
+                raise TypeError(
+                    "matrix must be a matrix (list of lists)"
+                    " of integers/floats")
+    if not isinstance(matrix, list):
         raise TypeError(
             "matrix must be a matrix (list of lists) of integers/floats")
 
