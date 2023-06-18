@@ -48,13 +48,13 @@ class Square:
         if value[0] < 0 or value[1] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = (value)
-    """ Returns the current area of the new square """
 
     def area(self):
+        """ Returns the current area of the new square """
         return self.__size ** 2
-    """ Prints a square """
 
     def my_print(self):
+        """ Prints a square """
         for _ in range(self.position[1]):
             print()
 
