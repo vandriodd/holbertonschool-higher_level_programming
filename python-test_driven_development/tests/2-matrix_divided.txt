@@ -34,7 +34,7 @@ Using ``matrix_divided``
     >>> matrix_divided([[1, 'two', 3], [4, 5, 6]], 2)
     Traceback (most recent call last):
     ...
-    TypeError: unsupported operand type(s) for /: 'str' and 'int'
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
 
     >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 0)
     Traceback (most recent call last):
