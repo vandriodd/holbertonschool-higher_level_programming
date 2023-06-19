@@ -44,7 +44,7 @@ The learning objectives of this project involve an understanding of:
 4. [Text indentation](5-text_indentation.py)
 5. [Max integer - Unittest](6-max_integer.py)
 
-Also look at the [test](./test) directory to find edge cases for each of these files!
+Also look at the [tests](./tests) directory to find edge cases for each of these files!
 
 ## Credits
 Guillaume
