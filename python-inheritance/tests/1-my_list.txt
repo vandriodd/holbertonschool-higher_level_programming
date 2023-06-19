@@ -31,3 +31,8 @@ Using ``MyList``
     ['#', 'C', '2', '0']
     >>> my_list.print_sorted()
     ['#', '0', '2', 'C']
+
+    >>> my_list = MyList(None)
+    Traceback (most recent call last):
+    ...
+    TypeError: 'NoneType' object is not iterable
