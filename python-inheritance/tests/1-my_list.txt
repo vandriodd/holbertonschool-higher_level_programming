@@ -8,17 +8,17 @@ Using ``MyList``
 
     >>> my_list = MyList()
 
-    >>> my_list = MyList([23, 6, 13])
+    >>> my_list = MyList([23, 13, 6, 13])
     >>> my_list
-    [23, 6, 13]
+    [23, 13, 6, 13]
     >>> my_list.print_sorted()
-    [6, 13, 23]
+    [6, 13, 13, 23]
 
-    >>> my_list = MyList([-15, -13, -17])
+    >>> my_list = MyList([-15, -13, -17, 23])
     >>> my_list
-    [-15, -13, -17]
+    [-15, -13, -17, 23]
     >>> my_list.print_sorted()
-    [-17, -15, -13]
+    [-17, -15, -13, 23]
 
     >>> my_list = MyList()
     >>> my_list
@@ -36,3 +36,9 @@ Using ``MyList``
     Traceback (most recent call last):
     ...
     TypeError: 'NoneType' object is not iterable
+
+    >>> my_list = MyList()
+    >>> type(my_list) == MyList
+    True
+    >>> type(my_list) == list
+    False
