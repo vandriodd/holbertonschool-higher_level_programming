@@ -8,24 +8,6 @@ Using ``MyList``
 
     >>> my_list = MyList()
 
-    >>> my_list = MyList([23, 13, 6, 13])
-    >>> my_list
-    [23, 13, 6, 13]
-    >>> my_list.print_sorted()
-    [6, 13, 13, 23]
-
-    >>> my_list = MyList([-15, -13, -17, 23])
-    >>> my_list
-    [-15, -13, -17, 23]
-    >>> my_list.print_sorted()
-    [-17, -15, -13, 23]
-
-    >>> my_list = MyList()
-    >>> my_list
-    []
-    >>> my_list.print_sorted()
-    []
-
     >>> my_list = MyList("#C20")
     >>> my_list
     ['#', 'C', '2', '0']
@@ -37,8 +19,22 @@ Using ``MyList``
     ...
     TypeError: 'NoneType' object is not iterable
 
+    >>> my_list2 = MyList()
+    >>> my_list2.print_sorted()
+    []
+
     >>> my_list = MyList()
-    >>> type(my_list) == MyList
+    >>> my_list.append(13)
+    >>> my_list.append(6)
+    >>> my_list.append(-15)
+    >>> my_list.append(6)
+    >>> my_list.append(-17)
+    >>> print(my_list)
+    [13, 6, -15, 6, -17]
+    >>> my_list.print_sorted()
+    [-17, -15, 6, 6, 13]
+
+    >>> my_list.print_sorted() is print(my_list)
+    [-17, -15, 6, 6, 13]
+    [13, 6, -15, 6, -17]
     True
-    >>> type(my_list) == list
-    False
