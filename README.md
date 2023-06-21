@@ -36,6 +36,8 @@ They are specified in each project.
 7. [python-classes](./python-classes)
 8. [python-test_driven_development](./python-test_driven_development)
 9. [python-more_classes](./python-more_classes)
+10. [python-everything_is_object](./python-everything_is_object)
+11. [python-inheritance](./python-inheritance)
 
 ## Credits
 Collaborators are acknowledged within each project.
