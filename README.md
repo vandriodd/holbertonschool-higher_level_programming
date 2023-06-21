@@ -41,6 +41,7 @@ They are specified in each project.
 9. [python-more_classes](./python-more_classes)
 10. [python-everything_is_object](./python-everything_is_object)
 11. [python-inheritance](./python-inheritance)
+12. [python-input_output](./python-input_output)
 
 ## Credits
 Collaborators are acknowledged within each project.
