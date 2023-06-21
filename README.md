@@ -15,8 +15,11 @@
 ## About
 This repository contains different projects carried out in the margins of the Holberton School course. These projects consist of exercises aimed at acquiring and reinforcing knowledge in:
 * Test Driven Development
+* Classes
 * Objects
 * Handling errors and exceptions
+* Inheritance
+* Data structures
 
 ## Resources
 They are specified in each project.
