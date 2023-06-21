@@ -29,7 +29,10 @@ The learning objectives of this project involve an understanding of:
 * What are, when and how to use **```isinstance```**, **```issubclass```**, **```type```** and **```super```** built-in functions
 
 ## Resources
-Placeholder
+* [Inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance)
+* [Multiple inheritance](https://docs.python.org/3/tutorial/classes.html#multiple-inheritance)
+* [Inheritance in Python](https://hub.packtpub.com/inheritance-python/)
+* [Learn to Program 10 : Inheritance Magic Methods](https://youtu.be/d8kCdLCi6Lk)
 
 ## Requirements
 * Ubuntu 20.04 LTS
