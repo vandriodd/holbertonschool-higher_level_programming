@@ -5,6 +5,7 @@
 
 
 import json
+from os.path import exists
 
 
 class Base:
@@ -55,3 +56,13 @@ class Base:
             dummy = cls(1)
         dummy.update(**dictionary)
         return dummy
+
+    @classmethod
+    def load_from_file(cls):
+        """ Returns a list of instances """
+        filename = f"{cls.__name__}.json"
+        if exists(filename):
+            with open(filename, 'r', encoding="utf-8") as file:
+                instances = cls.from_json_string(file.read())
+                return [cls.create(**instance) for instance in instances]
+        return []
