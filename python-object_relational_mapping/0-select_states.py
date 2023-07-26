@@ -5,14 +5,14 @@ if __name__ == "__main__":
     import sys
     import MySQLdb
 
-username = sys.argv[1]
-password = sys.argv[2]
+mysql_username = sys.argv[1]
+mysql_password = sys.argv[2]
 database_name = sys.argv[3]
 
 db_connection = MySQLdb.connect(
-    user=username,
-    passwd=password,
     host='localhost',
+    user=mysql_username,
+    passwd=mysql_password,
     database=database_name,
     port=3306
 )
@@ -20,7 +20,7 @@ db_connection = MySQLdb.connect(
 db_cursor = db_connection.cursor()
 db_cursor.execute("SELECT * FROM states ORDER BY id ASC")
 rows = db_cursor.fetchall()
-for row in rows:
-    print(row)
+for state in rows:
+    print(state)
 
 db_connection.close()
