@@ -4,12 +4,10 @@ const url = 'https://hellosalut.stefanbohacek.dev/?lang=fr';
 
 fetch(url)
   .then(res => {
-    if (!res.ok) {
-      throw new Error(`${res.status}`);
-    }
+    if (!res.ok) throw new Error(res.status);
     return res.json();
   })
   .then(data => {
     const helloElement = document.getElementById('hello');
-    helloElement.innerHTML = data.hello;
+    helloElement.innerHTML();
   });
