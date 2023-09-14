@@ -4,9 +4,6 @@ const header = document.querySelector('header');
 const toggleHeader = document.getElementById('toggle_header');
 
 toggleHeader.onclick = () => {
-  if (header.classList.contains('green')) {
-    header.classList.replace('green', 'red');
-  } else {
-    header.classList.replace('red', 'green');
-  }
+  header.classList.toggle('green', !header.classList.contains('green'));
+  header.classList.toggle('red', !header.classList.contains('red'));
 };
